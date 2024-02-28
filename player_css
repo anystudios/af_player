@@ -161,8 +161,8 @@
     outline:0
 }
 .plyr__control:focus-visible{
-    outline:2px dashed #00b2ff;
-    outline:2px dashed var(--plyr-focus-visible-color,var(--plyr-color-main,var(--plyr-color-main,#00b2ff)));
+    outline:2px dashed #FFDD00;
+    outline:2px dashed var(--plyr-focus-visible-color,var(--plyr-color-main,var(--plyr-color-main,#FFDD00)));
     outline-offset:2px
 }
 a.plyr__control{
@@ -375,8 +375,8 @@ a.plyr__control{
     width:6px
 }
 .plyr__menu__container .plyr__control[role=menuitemradio][aria-checked=true]:before{
-    background:#00b2ff;
-    background:var(--plyr-control-toggle-checked-background,var(--plyr-color-main,var(--plyr-color-main,#00b2ff)))
+    background:#FFDD00;
+    background:var(--plyr-control-toggle-checked-background,var(--plyr-color-main,var(--plyr-color-main,#FFDD00)))
 }
 .plyr__menu__container .plyr__control[role=menuitemradio][aria-checked=true]:after{
     opacity:1;
@@ -403,8 +403,8 @@ a.plyr__control{
     border:0;
     border-radius:26px;
     border-radius:calc(var(--plyr-range-thumb-height, 13px)*2);
-    color:#00b2ff;
-    color:var(--plyr-range-fill-background,var(--plyr-color-main,var(--plyr-color-main,#00b2ff)));
+    color:#FFDD00;
+    color:var(--plyr-range-fill-background,var(--plyr-color-main,var(--plyr-color-main,#FFDD00)));
     display:block;
     height:19px;
     height:calc(var(--plyr-range-thumb-active-shadow-width, 3px)*2 + var(--plyr-range-thumb-height, 13px));
@@ -532,18 +532,18 @@ a.plyr__control{
     outline:0
 }
 .plyr--full-ui input[type=range]:focus-visible::-webkit-slider-runnable-track{
-    outline:2px dashed #00b2ff;
-    outline:2px dashed var(--plyr-focus-visible-color,var(--plyr-color-main,var(--plyr-color-main,#00b2ff)));
+    outline:2px dashed #FFDD00;
+    outline:2px dashed var(--plyr-focus-visible-color,var(--plyr-color-main,var(--plyr-color-main,#FFDD00)));
     outline-offset:2px
 }
 .plyr--full-ui input[type=range]:focus-visible::-moz-range-track{
-    outline:2px dashed #00b2ff;
-    outline:2px dashed var(--plyr-focus-visible-color,var(--plyr-color-main,var(--plyr-color-main,#00b2ff)));
+    outline:2px dashed #FFDD00;
+    outline:2px dashed var(--plyr-focus-visible-color,var(--plyr-color-main,var(--plyr-color-main,#FFDD00)));
     outline-offset:2px
 }
 .plyr--full-ui input[type=range]:focus-visible::-ms-track{
-    outline:2px dashed #00b2ff;
-    outline:2px dashed var(--plyr-focus-visible-color,var(--plyr-color-main,var(--plyr-color-main,#00b2ff)));
+    outline:2px dashed #FFDD00;
+    outline:2px dashed var(--plyr-focus-visible-color,var(--plyr-color-main,var(--plyr-color-main,#FFDD00)));
     outline-offset:2px
 }
 .plyr__poster{
@@ -778,8 +778,8 @@ a.plyr__control{
     padding:var(--plyr-control-spacing,10px)
 }
 .plyr--audio .plyr__control:focus-visible,.plyr--audio .plyr__control:hover,.plyr--audio .plyr__control[aria-expanded=true]{
-    background:#00b2ff;
-    background:var(--plyr-audio-control-background-hover,var(--plyr-color-main,var(--plyr-color-main,#00b2ff)));
+    background:#FFDD00;
+    background:var(--plyr-audio-control-background-hover,var(--plyr-color-main,var(--plyr-color-main,#FFDD00)));
     color:#fff;
     color:var(--plyr-audio-control-color-hover,#fff)
 }
@@ -882,14 +882,14 @@ a.plyr__control{
     transform:translateY(100%)
 }
 .plyr--video .plyr__control:focus-visible,.plyr--video .plyr__control:hover,.plyr--video .plyr__control[aria-expanded=true]{
-    background:#00b2ff;
-    background:var(--plyr-video-control-background-hover,var(--plyr-color-main,var(--plyr-color-main,#00b2ff)));
+    background:#FFDD00;
+    background:var(--plyr-video-control-background-hover,var(--plyr-color-main,var(--plyr-color-main,#FFDD00)));
     color:#fff;
     color:var(--plyr-video-control-color-hover,#fff)
 }
 .plyr__control--overlaid{
-    background:#00b2ff;
-    background:var(--plyr-video-control-background-hover,var(--plyr-color-main,var(--plyr-color-main,#00b2ff)));
+    background:#FFDD00;
+    background:var(--plyr-video-control-background-hover,var(--plyr-color-main,var(--plyr-color-main,#FFDD00)));
     border:0;
     border-radius:100%;
     color:#fff;
